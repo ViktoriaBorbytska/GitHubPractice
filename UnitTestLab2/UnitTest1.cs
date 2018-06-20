@@ -14,8 +14,6 @@ using ClassInitialize = NUnit.Framework.TestFixtureSetUpAttribute;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #endif
 
-using NUnitAssert = NUnit.Framework.Assert;
-using MsAssert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
     [TestClass]
     public class UnitTest1
     {
