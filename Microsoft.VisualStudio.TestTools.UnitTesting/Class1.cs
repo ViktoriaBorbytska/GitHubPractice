@@ -37,13 +37,13 @@ namespace Microsoft.VisualStudio.TestTools.UnitTesting
     }
     public class Assert : NUnit.Framework.Assert
     {
-        public static void IsInstanceOfType(object obj, Type type)
+        public static void IsInstanceOf(object obj, Type type)
         {
-            NUnit.Framework.Assert.IsInstanceOfType(type, obj, null);
+            NUnit.Framework.Assert.IsInstanceOf(type, obj, null);
         }
-        public static void IsInstanceOfType(object obj, Type type, string message)
+        public static void IsInstanceOf(object obj, Type type, string message)
         {
-            NUnit.Framework.Assert.IsInstanceOfType(type, obj, message);
+            NUnit.Framework.Assert.IsInstanceOf(type, obj, message);
         }
     }
 }
