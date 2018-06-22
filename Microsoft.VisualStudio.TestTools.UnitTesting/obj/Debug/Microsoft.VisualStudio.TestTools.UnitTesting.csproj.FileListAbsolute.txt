@@ -1,0 +1,6 @@
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\bin\Debug\Microsoft.VisualStudio.TestTools.UnitTesting.dll
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\bin\Debug\Microsoft.VisualStudio.TestTools.UnitTesting.pdb
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\bin\Debug\nunit.framework.dll
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\bin\Debug\nunit.framework.xml
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\obj\Debug\Microsoft.VisualStudio.TestTools.UnitTesting.dll
+C:\Users\vika\Documents\Visual Studio 2015\Projects\Labwork2\Microsoft.VisualStudio.TestTools.UnitTesting\obj\Debug\Microsoft.VisualStudio.TestTools.UnitTesting.pdb
