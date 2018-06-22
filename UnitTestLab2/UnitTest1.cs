@@ -1,19 +1,9 @@
 ﻿using System;
 using lab2;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestLab2
 {
-#if NUNIT
-using TestClass = NUnit.Framework.TestFixtureAttribute;
-using TestMethod = NUnit.Framework.TestAttribute;
-using TestCleanup = NUnit.Framework.TearDownAttribute;
-using TestInitialize = NUnit.Framework.SetUpAttribute;
-using ClassCleanup = NUnit.Framework.TestFixtureTearDownAttribute;
-using ClassInitialize = NUnit.Framework.TestFixtureSetUpAttribute;
-#else
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-#endif
-
     [TestClass]
     public class UnitTest1
     {

@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63AB8798-83AB-4DD1-A3B9-0AD8BC9BEE1C}</ProjectGuid>
+    <ProjectGuid>{C413693F-9135-4F32-BB6B-A1A014664CD7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.VisualStudio.TestTools.UnitTesting</RootNamespace>
