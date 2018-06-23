@@ -6,43 +6,6 @@ namespace UnitTestLab2
     [TestFixture()]
     public class UnitTest1
     {
-        Form1 t = new Form1();
-        [Test()]
-        public void formatVerificationTrue()
-        {
-            string a = "123.456";
-            bool expected = true;
-            bool actual = t.formatVerification(a);
-            Assert.AreEqual(expected, actual);
-        }
-        [Test()]
-        public void formatVerificationFalse()
-        {
-            string a = "-12qw34.56+7";
-            bool expected = false;
-            bool actual = t.formatVerification(a);
-            Assert.AreEqual(expected, actual);
-        }
-        [Test()]
-        public void inputVerificationTrue()
-        {
-            string a = "-123.456";
-            string b = "0";
-            string c = "546";
-            bool expected = true;
-            bool actual = t.inputVerification(a, b, c);
-            Assert.AreEqual(expected, actual);
-        }
-        [Test()]
-        public void inputVerificationFalse()
-        {
-            string a = "zx134cs";
-            string b = "";
-            string c = "9999999";
-            bool expected = false;
-            bool actual = t.inputVerification(a, b, c);
-            Assert.AreEqual(expected, actual);
-        }
         [Test()]
         public void firstRootCalculator1()
         {
