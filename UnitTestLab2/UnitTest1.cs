@@ -1,5 +1,4 @@
-﻿using System;
-using lab2;
+﻿using lab2;
 using NUnit.Framework;
 
 namespace UnitTestLab2

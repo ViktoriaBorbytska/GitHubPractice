@@ -2,7 +2,7 @@ language: csharp
 solution: lab2.sln
 install:
   - nuget restore lab2.sln
-  - nuget install NUnit.Runners -Version 3.8.0 -OutputDirectory testrunner
+  - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
 script:
   - msbuild /p:Configuration=Release lab2.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe ./UnitTestLab2/bin/Debug/UnitTestLab2.dll
+  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./UnitTestLab2/bin/Release/UnitTestLab2.dll
