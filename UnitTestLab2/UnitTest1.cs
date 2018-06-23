@@ -1,13 +1,13 @@
 ﻿using System;
 using lab2;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace UnitTestLab2
 {
-    [TestClass]
+    [TestFixture()]
     public class UnitTest1
     {
-        [TestMethod]
+        [Test()]
         public void formatVerificationTrue()
         {
             string a = "123.456";
@@ -17,7 +17,7 @@ namespace UnitTestLab2
             Assert.AreEqual(expected, actual);
 
         }
-        [TestMethod]
+        [Test()]
         public void formatVerificationFalse()
         {
             string a = "-12qw34.56+7";
@@ -27,7 +27,7 @@ namespace UnitTestLab2
             Assert.AreEqual(expected, actual);
 
         }
-        [TestMethod]
+        [Test()]
         public void inputVerificationTrue()
         {
             string a = "-123.456";
@@ -38,7 +38,7 @@ namespace UnitTestLab2
             bool actual = t.inputVerification(a, b, c);
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void inputVerificationFalse()
         {
             string a = "zx134cs";
@@ -49,7 +49,7 @@ namespace UnitTestLab2
             bool actual = t.inputVerification(a, b, c);
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator1()
         {
             string a = "0";
@@ -60,7 +60,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator2()
         {
             string a = "0";
@@ -71,7 +71,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator3()
         {
             string a = "0";
@@ -82,7 +82,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator4()
         {
             string a = "0";
@@ -93,7 +93,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator5()
         {
             string a = "7";
@@ -104,7 +104,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator6()
         {
             string a = "1";
@@ -115,7 +115,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator7()
         {
             string a = "1";
@@ -126,7 +126,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void firstRootCalculator8()
         {
             string a = "7";
@@ -137,7 +137,7 @@ namespace UnitTestLab2
             string actual = t.firstRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator1()
         {
             string a = "0";
@@ -148,7 +148,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator2()
         {
             string a = "0";
@@ -159,7 +159,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator3()
         {
             string a = "0";
@@ -170,7 +170,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator4()
         {
             string a = "0";
@@ -181,7 +181,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator5()
         {
             string a = "7";
@@ -192,7 +192,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator6()
         {
             string a = "1";
@@ -203,7 +203,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator7()
         {
             string a = "1";
@@ -214,7 +214,7 @@ namespace UnitTestLab2
             string actual = t.secondRootCalculator();
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod]
+        [Test()]
         public void secondRootCalculator8()
         {
             string a = "7";

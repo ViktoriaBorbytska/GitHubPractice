@@ -62,10 +62,6 @@
       <Project>{56b9ef94-db76-48b4-9e35-003228964fdd}</Project>
       <Name>lab2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.VisualStudio.TestTools.UnitTesting\Microsoft.VisualStudio.TestTools.UnitTesting.csproj">
-      <Project>{c413693f-9135-4f32-bb6b-a1a014664cd7}</Project>
-      <Name>Microsoft.VisualStudio.TestTools.UnitTesting</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
