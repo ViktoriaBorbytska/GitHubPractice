@@ -162,7 +162,7 @@ namespace TP_lab4_2_class
                     }
                 }
             }
-            return $"Минимальный элемент среди элементов с четной суммой индексов массива {num}";
+            return $"Minimal element is {num}";
         }
         //вторая операция
         public int[,] operation2()
