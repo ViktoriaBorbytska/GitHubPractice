@@ -10,4 +10,4 @@ script:
   - msbuild /p:Configuration=Release src/Labwork2/lab2.sln
   - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork2/UnitTestLab2/bin/Release/UnitTestLab2.dll
   - msbuild /p:Configuration=Release src/Labwork4/TP_lab4_2.4.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork4/UnitTestLab4/bin/Debug/UnitTestLab4.dll 
+  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork4/UnitTestLab4/bin/Release/UnitTestLab4.dll 
