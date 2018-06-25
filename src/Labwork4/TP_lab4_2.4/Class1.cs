@@ -208,5 +208,9 @@ namespace TP_lab4_2_class
             }
 
         }
+        public int add()
+        {
+            return x + y;
+        }
     }
 }
