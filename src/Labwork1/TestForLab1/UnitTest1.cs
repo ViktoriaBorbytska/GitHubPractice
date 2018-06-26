@@ -9,19 +9,21 @@ namespace testForLab1
     {
         lab1 test = new lab1();
         [Test()]
-        public void factorial1()
+        public void add1()
         {
             double x = 5;
+            double y = 115;
             double expected = 120;
-            double actual = test.getFactorial(x);
+            double actual = test.addFunk(x, y);
             Assert.AreEqual(expected, actual);
         }
         [Test()]
-        public void factorial2()
+        public void add2()
         {
-            int x = 4;
-            int expected = 24;
-            double actual = test.getFactorial(x);
+            double x = 10;
+            double y = 15;
+            double expected = 25;
+            double actual = test.addFunk(x, y);
             Assert.AreEqual(expected, actual);
         }
     }
