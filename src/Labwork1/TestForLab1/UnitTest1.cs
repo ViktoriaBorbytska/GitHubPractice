@@ -25,5 +25,14 @@ namespace testForLab1
             double actual = test.add(x, y);
             Assert.AreEqual(expected, actual);
         }
+        [Test()]
+        public void add3()
+        {
+            double x = 99;
+            double y = 66;
+            double expected = 165;
+            double actual = test.add(x, y);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
