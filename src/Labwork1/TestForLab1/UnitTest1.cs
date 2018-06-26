@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using TP2._4_Lab1;
 
 namespace testForLab1
