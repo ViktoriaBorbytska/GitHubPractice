@@ -3,12 +3,10 @@ solution:
   - src/Labwork2/lab2.sln
   - src/Labwork4/TP_lab4_2.4.sln
   - src/Labwork3/lab3.sln
-  - src/Labwork1/TP2.4_Lab1.sln
 install:
   - nuget restore src/Labwork2/lab2.sln
   - nuget restore src/Labwork4/TP_lab4_2.4.sln
   - nuget restore src/Labwork3/lab3.sln
-  - nuget restore src/Labwork1/TP2.4_Lab1.sln
   - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
 script:
   - msbuild /p:Configuration=Release src/Labwork2/lab2.sln
@@ -17,5 +15,3 @@ script:
   - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork4/UnitTestLab4/bin/Release/UnitTestLab4.dll
   - msbuild /p:Configuration=Release src/Labwork3/lab3.sln
   - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork3/ArrayProcessUnitTest/bin/Release/ArrayProcessUnitTest.dll
-  - msbuild /p:Configuration=Release src/Labwork1/TP2.4_Lab1.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe src/Labwork1/TestForLab1/bin/Release/TestForLab1.dll

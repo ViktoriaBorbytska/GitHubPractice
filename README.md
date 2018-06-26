@@ -9,7 +9,6 @@ Contains:
 1. Labwork 2 (Viktoria's commit)
 2. Labwork 3 (Viktoria's commit)
 3. Labwork 4 (Lev's commit)
-4. Labwork 1 (Lev's commit)
 
 Steps:
 
@@ -24,4 +23,3 @@ Steps:
    
    Lev:
    1. Labwork 4 added.
-   2. Labwork 1 added.
