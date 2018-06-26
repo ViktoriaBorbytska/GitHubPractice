@@ -33,10 +33,7 @@ namespace TP2._4_Lab1
             sqr
         }
         actions staus;
-        public double addFunk(double x, double y)
-        {
-            return x + y;
-        }
+        
         //метод считающий факториал
         public double getFactorial(double num)
         {
